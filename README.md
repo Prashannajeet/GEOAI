@@ -65,4 +65,3 @@ max change: 0.3403
 5. Deploy.
 
 No API key is required for the public Source Cooperative COG path.
-
