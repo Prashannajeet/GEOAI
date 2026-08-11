@@ -1,0 +1,344 @@
+[
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2017/43N/x81j9m605428xyk3p-0000008192-0000000000.tiff",
+    "year": 2017,
+    "utmZone": "43N",
+    "utm": {
+      "west": 663840,
+      "south": 2539520,
+      "east": 745760,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 76.5980622820776,
+      "south": 22.9457590677606,
+      "east": 77.4099423199475,
+      "north": 23.6955152273578
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2017/43N/x81j9m605428xyk3p-0000008192-0000000000.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2017/43N/x81j9m605428xyk3p-0000008192-0000008192.tiff",
+    "year": 2017,
+    "utmZone": "43N",
+    "utm": {
+      "west": 745760,
+      "south": 2539520,
+      "east": 827680,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 77.3966440904563,
+      "south": 22.9354929720447,
+      "east": 78,
+      "north": 23.6850954018236
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2017/43N/x81j9m605428xyk3p-0000008192-0000008192.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2018/43N/x2g5xdr1y3pgu637k-0000008192-0000000000.tiff",
+    "year": 2018,
+    "utmZone": "43N",
+    "utm": {
+      "west": 663840,
+      "south": 2539520,
+      "east": 745760,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 76.5980622820776,
+      "south": 22.9457590677606,
+      "east": 77.4099423199475,
+      "north": 23.6955152273578
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2018/43N/x2g5xdr1y3pgu637k-0000008192-0000000000.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2018/43N/x2g5xdr1y3pgu637k-0000008192-0000008192.tiff",
+    "year": 2018,
+    "utmZone": "43N",
+    "utm": {
+      "west": 745760,
+      "south": 2539520,
+      "east": 827680,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 77.3966440904563,
+      "south": 22.9354929720447,
+      "east": 78,
+      "north": 23.6850954018236
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2018/43N/x2g5xdr1y3pgu637k-0000008192-0000008192.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2019/43N/xuii1hqjmuxlaklph-0000008192-0000000000.tiff",
+    "year": 2019,
+    "utmZone": "43N",
+    "utm": {
+      "west": 663840,
+      "south": 2539520,
+      "east": 745760,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 76.5980622820776,
+      "south": 22.9457590677606,
+      "east": 77.4099423199475,
+      "north": 23.6955152273578
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2019/43N/xuii1hqjmuxlaklph-0000008192-0000000000.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2019/43N/xuii1hqjmuxlaklph-0000008192-0000008192.tiff",
+    "year": 2019,
+    "utmZone": "43N",
+    "utm": {
+      "west": 745760,
+      "south": 2539520,
+      "east": 827680,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 77.3966440904563,
+      "south": 22.9354929720447,
+      "east": 78,
+      "north": 23.6850954018236
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2019/43N/xuii1hqjmuxlaklph-0000008192-0000008192.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2020/43N/xfi89ri1p7tuhu9kt-0000008192-0000000000.tiff",
+    "year": 2020,
+    "utmZone": "43N",
+    "utm": {
+      "west": 663840,
+      "south": 2539520,
+      "east": 745760,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 76.5980622820776,
+      "south": 22.9457590677606,
+      "east": 77.4099423199475,
+      "north": 23.6955152273578
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2020/43N/xfi89ri1p7tuhu9kt-0000008192-0000000000.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2020/43N/xfi89ri1p7tuhu9kt-0000008192-0000008192.tiff",
+    "year": 2020,
+    "utmZone": "43N",
+    "utm": {
+      "west": 745760,
+      "south": 2539520,
+      "east": 827680,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 77.3966440904563,
+      "south": 22.9354929720447,
+      "east": 78,
+      "north": 23.6850954018236
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2020/43N/xfi89ri1p7tuhu9kt-0000008192-0000008192.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2021/43N/xeiu02wwch2ok7940-0000008192-0000000000.tiff",
+    "year": 2021,
+    "utmZone": "43N",
+    "utm": {
+      "west": 663840,
+      "south": 2539520,
+      "east": 745760,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 76.5980622820776,
+      "south": 22.9457590677606,
+      "east": 77.4099423199475,
+      "north": 23.6955152273578
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2021/43N/xeiu02wwch2ok7940-0000008192-0000000000.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2021/43N/xeiu02wwch2ok7940-0000008192-0000008192.tiff",
+    "year": 2021,
+    "utmZone": "43N",
+    "utm": {
+      "west": 745760,
+      "south": 2539520,
+      "east": 827680,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 77.3966440904563,
+      "south": 22.9354929720447,
+      "east": 78,
+      "north": 23.6850954018236
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2021/43N/xeiu02wwch2ok7940-0000008192-0000008192.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2022/43N/x9gbu6lu0ylrdyyn3-0000008192-0000000000.tiff",
+    "year": 2022,
+    "utmZone": "43N",
+    "utm": {
+      "west": 663840,
+      "south": 2539520,
+      "east": 745760,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 76.5980622820776,
+      "south": 22.9457590677606,
+      "east": 77.4099423199475,
+      "north": 23.6955152273578
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2022/43N/x9gbu6lu0ylrdyyn3-0000008192-0000000000.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2022/43N/x9gbu6lu0ylrdyyn3-0000008192-0000008192.tiff",
+    "year": 2022,
+    "utmZone": "43N",
+    "utm": {
+      "west": 745760,
+      "south": 2539520,
+      "east": 827680,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 77.3966440904563,
+      "south": 22.9354929720447,
+      "east": 78,
+      "north": 23.6850954018236
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2022/43N/x9gbu6lu0ylrdyyn3-0000008192-0000008192.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2023/43N/xjfoqblz49gyybcai-0000008192-0000000000.tiff",
+    "year": 2023,
+    "utmZone": "43N",
+    "utm": {
+      "west": 663840,
+      "south": 2539520,
+      "east": 745760,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 76.5980622820776,
+      "south": 22.9457590677606,
+      "east": 77.4099423199475,
+      "north": 23.6955152273578
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2023/43N/xjfoqblz49gyybcai-0000008192-0000000000.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2023/43N/xjfoqblz49gyybcai-0000008192-0000008192.tiff",
+    "year": 2023,
+    "utmZone": "43N",
+    "utm": {
+      "west": 745760,
+      "south": 2539520,
+      "east": 827680,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 77.3966440904563,
+      "south": 22.9354929720447,
+      "east": 78,
+      "north": 23.6850954018236
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2023/43N/xjfoqblz49gyybcai-0000008192-0000008192.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2024/43N/xwj80u5zdmm904vxg-0000008192-0000000000.tiff",
+    "year": 2024,
+    "utmZone": "43N",
+    "utm": {
+      "west": 663840,
+      "south": 2539520,
+      "east": 745760,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 76.5980622820776,
+      "south": 22.9457590677606,
+      "east": 77.4099423199475,
+      "north": 23.6955152273578
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/43N/xwj80u5zdmm904vxg-0000008192-0000000000.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2024/43N/xwj80u5zdmm904vxg-0000008192-0000008192.tiff",
+    "year": 2024,
+    "utmZone": "43N",
+    "utm": {
+      "west": 745760,
+      "south": 2539520,
+      "east": 827680,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 77.3966440904563,
+      "south": 22.9354929720447,
+      "east": 78,
+      "north": 23.6850954018236
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2024/43N/xwj80u5zdmm904vxg-0000008192-0000008192.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2025/43N/xv5q2469pyouzsp17-0000008192-0000000000.tiff",
+    "year": 2025,
+    "utmZone": "43N",
+    "utm": {
+      "west": 663840,
+      "south": 2539520,
+      "east": 745760,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 76.5980622820776,
+      "south": 22.9457590677606,
+      "east": 77.4099423199475,
+      "north": 23.6955152273578
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2025/43N/xv5q2469pyouzsp17-0000008192-0000000000.tiff"
+  },
+  {
+    "crs": "EPSG:32643",
+    "path": "s3://us-west-2.opendata.source.coop/tge-labs/aef/v1/annual/2025/43N/xv5q2469pyouzsp17-0000008192-0000008192.tiff",
+    "year": 2025,
+    "utmZone": "43N",
+    "utm": {
+      "west": 745760,
+      "south": 2539520,
+      "east": 827680,
+      "north": 2621440
+    },
+    "wgs84": {
+      "west": 77.3966440904563,
+      "south": 22.9354929720447,
+      "east": 78,
+      "north": 23.6850954018236
+    },
+    "url": "https://data.source.coop/tge-labs/aef/v1/annual/2025/43N/xv5q2469pyouzsp17-0000008192-0000008192.tiff"
+  }
+]
