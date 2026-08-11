@@ -41,6 +41,12 @@ streamlit run streamlit_app.py
 7. Polygonize connected hotspots.
 8. Display results on a pydeck map and export GeoJSON/CSV.
 
+## Canonical Project Structure
+
+This repository is the canonical location for the Bhopal AlphaEarth app. Version history is tracked in `VERSION_LOG.md`, and retained artifacts are listed in `ARTIFACT_MANIFEST.md`.
+
+Historical development artifacts that are still useful are kept under `docs/references/`. Local runtimes and scratch files are excluded from version control.
+
 ## Default Pilot
 
 - City: Bhopal, Madhya Pradesh, India
