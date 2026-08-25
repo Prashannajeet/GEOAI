@@ -2,6 +2,13 @@
 
 This log tracks the Bhopal AlphaEarth app versions and the artifacts retained in the canonical repository.
 
+## v1.1.1 - Streamlit Cloud Deployment Hardening
+
+Date: 2026-08-25
+
+- Added `runtime.txt` to pin Streamlit Cloud to Python 3.11 for stable rasterio/GDAL wheel support.
+- Added `.streamlit/config.toml` with headless server configuration and disabled Streamlit usage telemetry.
+
 ## v1.1.0 - Consolidated Project Structure
 
 Date: 2026-08-11
@@ -53,4 +60,3 @@ Date: 2026-08-11
 - Created a Google Earth Engine script for Bhopal AlphaEarth change analysis.
 - Retained as a reference in `docs/references/bhopal_alphaearth_pilot_gee.js`.
 - Superseded for app hosting by the Streamlit implementation.
-

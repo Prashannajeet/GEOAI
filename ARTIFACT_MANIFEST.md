@@ -23,6 +23,8 @@ https://github.com/Prashannajeet/GEOAI
 | `.gitignore` | Keeps local runtimes, caches, logs, and secrets out of version control. | Active |
 | `VERSION_LOG.md` | Human-readable version history. | Active |
 | `ARTIFACT_MANIFEST.md` | Canonical file inventory and consolidation notes. | Active |
+| `runtime.txt` | Pins Streamlit Cloud to Python 3.11 for rasterio/GDAL compatibility. | Active |
+| `.streamlit/config.toml` | Streamlit deployment/runtime configuration. | Active |
 
 ## Reference Artifacts
 
@@ -52,4 +54,3 @@ Every future app change should update:
 1. `VERSION_LOG.md`
 2. `ARTIFACT_MANIFEST.md` if files are added, moved, or retired
 3. `README.md` if user-facing behavior changes
-

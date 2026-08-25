@@ -70,4 +70,6 @@ max change: 0.3403
 4. Set the app file to `streamlit_app.py`.
 5. Deploy.
 
+The repository includes `runtime.txt` to pin Python 3.11, which is recommended for stable `rasterio` wheel installation on Streamlit Cloud.
+
 No API key is required for the public Source Cooperative COG path.
