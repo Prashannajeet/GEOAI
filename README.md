@@ -73,3 +73,5 @@ max change: 0.3403
 The repository includes `runtime.txt` to pin Python 3.11, which is recommended for stable `rasterio` wheel installation on Streamlit Cloud.
 
 No API key is required for the public Source Cooperative COG path.
+
+If the app loads but analysis fails after pressing **Run real analysis**, check whether the deployment environment can reach `https://data.source.coop/`. The app performs live remote COG reads at run time.

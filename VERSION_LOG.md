@@ -2,6 +2,14 @@
 
 This log tracks the Bhopal AlphaEarth app versions and the artifacts retained in the canonical repository.
 
+## v1.1.2 - Streamlit Startup Reliability
+
+Date: 2026-08-27
+
+- Stopped the app from auto-running remote AlphaEarth COG analysis on initial page load.
+- Added explicit run-time error handling so source connectivity issues are shown in the UI instead of breaking startup.
+- Added GDAL HTTP retry, timeout, and COG extension settings for remote raster reads.
+
 ## v1.1.1 - Streamlit Cloud Deployment Hardening
 
 Date: 2026-08-25

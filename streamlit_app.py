@@ -124,7 +124,13 @@ def dequantize(array):
 
 
 def read_window(url, width):
-    with rasterio.Env(GDAL_DISABLE_READDIR_ON_OPEN="EMPTY_DIR"):
+    with rasterio.Env(
+        GDAL_DISABLE_READDIR_ON_OPEN="EMPTY_DIR",
+        CPL_VSIL_CURL_ALLOWED_EXTENSIONS=".tif,.tiff",
+        GDAL_HTTP_MAX_RETRY="3",
+        GDAL_HTTP_RETRY_DELAY="2",
+        GDAL_HTTP_TIMEOUT="60",
+    ):
         with rasterio.open(url) as src:
             bbox = transform_bounds(
                 "EPSG:4326",
@@ -322,11 +328,23 @@ if end_year <= start_year:
     st.error("End year must be later than start year.")
     st.stop()
 
-if run or "latest_geojson" not in st.session_state:
+if "latest_geojson" not in st.session_state:
+    st.session_state.latest_geojson = None
+
+if run:
     with st.spinner("Reading AlphaEarth COG pixels and computing 64-band change scores..."):
-        st.session_state.latest_geojson = analyze(start_year, end_year, threshold, resolution)
+        try:
+            st.session_state.latest_geojson = analyze(start_year, end_year, threshold, resolution)
+        except Exception as exc:
+            st.session_state.latest_geojson = None
+            st.error(f"Real AlphaEarth analysis failed: {exc}")
+            st.stop()
 
 geojson = st.session_state.latest_geojson
+if geojson is None:
+    st.info("Choose a year pair and click Run real analysis to read AlphaEarth COGs and compute Bhopal hotspots.")
+    st.stop()
+
 metadata = geojson["metadata"]
 
 metric_cols = st.columns(4)
