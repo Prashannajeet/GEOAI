@@ -41,6 +41,14 @@ streamlit run streamlit_app.py
 7. Polygonize connected hotspots.
 8. Display results on a pydeck map and export GeoJSON/CSV.
 
+## Smoke Test
+
+Use this to test the real COG analysis path outside the Streamlit UI:
+
+```bash
+python smoke_test.py
+```
+
 ## Canonical Project Structure
 
 This repository is the canonical location for the Bhopal AlphaEarth app. Version history is tracked in `VERSION_LOG.md`, and retained artifacts are listed in `ARTIFACT_MANIFEST.md`.
@@ -74,4 +82,4 @@ The repository includes `runtime.txt` to pin Python 3.11, which is recommended f
 
 No API key is required for the public Source Cooperative COG path.
 
-If the app loads but analysis fails after pressing **Run real analysis**, check whether the deployment environment can reach `https://data.source.coop/`. The app performs live remote COG reads at run time.
+If the app loads but analysis fails after pressing **Run real analysis**, check whether the deployment environment can reach `https://data.source.coop/`. The app performs live remote COG reads at run time and configures GDAL with HTTP retry/timeouts plus a standard user-agent for Source Cooperative compatibility.

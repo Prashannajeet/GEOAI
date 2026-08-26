@@ -25,6 +25,7 @@ https://github.com/Prashannajeet/GEOAI
 | `ARTIFACT_MANIFEST.md` | Canonical file inventory and consolidation notes. | Active |
 | `runtime.txt` | Pins Streamlit Cloud to Python 3.11 for rasterio/GDAL compatibility. | Active |
 | `.streamlit/config.toml` | Streamlit deployment/runtime configuration. | Active |
+| `smoke_test.py` | Runs the real default analysis outside Streamlit for deployment diagnostics. | Active |
 
 ## Reference Artifacts
 

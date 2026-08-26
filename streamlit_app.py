@@ -130,6 +130,7 @@ def read_window(url, width):
         GDAL_HTTP_MAX_RETRY="3",
         GDAL_HTTP_RETRY_DELAY="2",
         GDAL_HTTP_TIMEOUT="60",
+        GDAL_HTTP_USERAGENT="curl/8.0",
     ):
         with rasterio.open(url) as src:
             bbox = transform_bounds(

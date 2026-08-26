@@ -2,6 +2,13 @@
 
 This log tracks the Bhopal AlphaEarth app versions and the artifacts retained in the canonical repository.
 
+## v1.1.3 - AlphaEarth COG Request Compatibility
+
+Date: 2026-08-27
+
+- Added a GDAL HTTP user-agent for remote AlphaEarth COG reads.
+- Verified rasterio can open the real Bhopal AlphaEarth COG with the updated request settings.
+
 ## v1.1.2 - Streamlit Startup Reliability
 
 Date: 2026-08-27
